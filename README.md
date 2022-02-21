@@ -1,9 +1,7 @@
 # RTES Yocto Exam
 
 ## Installation
-___
-
-1. Add `meta-exam` under the **poky** directory
+1. Clone repo in **poky** directory
 2. Add apps to **IMAGE_INSTALL** in `local.conf`:
 
    ```
@@ -16,7 +14,7 @@ ___
    ```
     BBLAYERS ?= "
       ...
-      /path/to/meta-exam/directory \
+      /path/to/dir/meta-exam/ \
       ...
     "
    ```
@@ -27,11 +25,13 @@ ___
 5. ### Enjoynt !
 
 ## Usage
-___
 
-To use `zip`, `vim`, `openssh` and `iperf2` you have to refer to relative docs.
+To use `zip`, `vim`, `openssh` and `iperf2` you have to refer to relative docs.<br>
+`Petaloso` app [refers to this documentation at paragraph 7.5.3](http://didattica.agentgroup.unimo.it/didattica/ProgettazioneSO/Lucidi/Laboratorio/LittleBookOfSemaphores(Pag.127-250).pdf#page=111).
 
-To use `petaloso` app you have to invoke the app and set 2 parameters randomically, that indicate the **number of threads** (+1) to use.
+
+To use `petaloso` you have to invoke the app and set 2 parameters randomically, that indicate the **number of threads** (+1) to use.
+
 ```
 petaloso 40 30
 ```
