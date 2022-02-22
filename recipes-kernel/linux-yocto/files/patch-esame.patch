@@ -17,7 +17,7 @@ index 92c99472d2c9..5d7dae5b13b7 100644
  	if (scope == SCOPE_SYSTEM)
  		pr_info("detected: 32-bit EL0 Support\n");
 -
-+	pr_notice("Level 1 of RTES project maffiga\n");
++	pr_notice("Level 1 of RTES project\n");
  	return true;
  }
 
