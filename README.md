@@ -32,6 +32,6 @@ To use `zip`, `vim`, `openssh` and `iperf2` you have to refer to relative docs.<
 
 To use `petaloso` you have to invoke the app and set 2 parameters randomically, that indicate the **number of threads** (+1) to use.
 
-```
+**```**
 petaloso 40 30
 ```
